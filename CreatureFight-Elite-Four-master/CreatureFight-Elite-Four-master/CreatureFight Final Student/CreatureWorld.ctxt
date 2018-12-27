@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=CreatureWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=CreatureWorld()
+comment1.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ CreatureWorld.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ an\ object\ of\ class\ CreatureWorld\r\n
+comment10.params=index
+comment10.target=Creature\ getNewOneCreature(int)
+comment10.text=\r\n\ getNewOneCreature\ -\ returns\ null\ for\ playerOneCreatures\r\n\ \r\n\ @param\ An\ int\ called\ index\r\n\ @return\ It\ has\ a\ Creature\ set\ as\ the\ return\r\n
+comment11.params=index
+comment11.target=Creature\ getNewTwoCreature(int)
+comment11.text=\r\n\ getNewTwoCreature\ -\ returns\ null\ for\ playerTwoCreatures\r\n\ \r\n\ @param\ An\ int\ called\ index\r\n\ @return\ It\ has\ a\ Creature\ set\ as\ the\ return\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ act\ -\ will\ complete\ actions\ of\ the\ Creature\ Class.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=
+comment3.target=void\ prepareCreatures()
+comment3.text=\r\n\ prepareCreatures\ adds\ the\ player\ one\ creature\ and\ player\ two\ creature\ to\ the\ world.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=Creature\ getPlayerOne()
+comment4.text=\r\n\ getPlayerOne\ returns\ player\ one's\ current\ creature\ in\ use\ \r\n\ for\ other\ code\ throughout\ the\ scenarios\ code.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.params=
+comment5.target=Creature\ getPlayerTwo()
+comment5.text=\r\n\ getPlayerTwo\ returns\ player\ two's\ current\ creature\ in\ use\ \r\n\ for\ other\ code\ throughout\ the\ scenarios\ code.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment6.params=
+comment6.target=int\ getTurnNumber()
+comment6.text=\r\n\ getTurnNumber\ returns\ a\ number\ that\ represents\ which\ player's\r\n\ turn\ it\ is\ for\ example(\ player\ 1\ or\ player\ 2)\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ An\ integer\ that\ represents\ which\ player's\ turn\ it\ is\r\n
+comment7.params=turn
+comment7.target=void\ setTurnNumber(int)
+comment7.text=\r\n\ setTurnNumber\ changes\ the\ turn\ number\ to\ the\ appropriate\r\n\ number\ for\ which\ player's\ turn\ it\ is\r\n\ \r\n\ @param\ turn\ is\ the\ number\ that\ represents\ which\ player's\ turn\ it\ is\r\n\ @return\ Nothing\ is\ returned\r\n
+comment8.params=creature
+comment8.target=void\ changePlayerOne(java.lang.String)
+comment8.text=\r\n\ changePlayerOne\ sets\ playerOneCreature\ \=\ creature,\ and\ \r\n\ removes\ both\ oneFightMenu\ and\ oneSwitchMenu\ objects\ from\ the\ world.\r\n\ \r\n\ @param\ A\ String\ called\ creature\ which\ is\ used\ to\ set\ playerOneCreature\r\n\ @return\ there\ is\ no\ return\r\n
+comment9.params=creature
+comment9.target=void\ changePlayerTwo(java.lang.String)
+comment9.text=\r\n\ changePlayerTwo\ sets\ playerTwoCreature\ \=\ creature,\ and\ \r\n\ removes\ both\ twoFightMenu\ and\ twoSwitchMenu\ objects\ from\ the\ world.\r\n\ \r\n\ @param\ A\ String\ called\ creature\ which\ is\ used\ to\ set\ playerTwoCreature\r\n\ @return\ there\ is\ no\ return\r\n
+numComments=12

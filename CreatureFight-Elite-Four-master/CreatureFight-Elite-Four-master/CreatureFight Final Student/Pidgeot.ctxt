@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Pidgeot
+comment0.text=\r\n\ TODO\ (153)\:\ Copy\ all\ code\ below\ public\ class\ Lapras\ and\ paste\ it\ below.\r\n\ \ \ \ \ \ \ \ \ \ You\ will\ make\ a\ few\ changes\ to\ the\ code\ to\ make\ it\ appropriate\ for\r\n\ \ \ \ \ \ \ \ \ \ Lapras.\ These\ are\ listed\ in\ order\ from\ top\ to\ bottom\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Change\ the\ constructor\ to\ say\ Pidgeot\ instead\ of\ Lapras\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Pidgeot\ has\ 800\ points\ of\ health\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Pidgeot's\ type\ is\ Flying\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Show\ text\ that\ Pidgeot\ has\ fainted\ when\ its\ health\ bar's\ value\ is\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ less\ than\ or\ equal\ to\ 0\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ When\ Pidgeot\ faints,\ the\ second\ thing\ you\ should\ be\ checking\ is\ if\ getNewTwoCreature\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ at\ 1\ still\ has\ health\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ You\ should\ be\ switching\ to\ Creature\ at\ index\ 1\ if\ this\ is\ the\ case\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Lapras's\ second\ attack...\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ if\ used\ against\ a\ grass\ type...\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Should\ do\ two\ times\ 55\ points\ of\ damage\ (DON'T\ DO\ THE\ MATH\!\ Write\ the\ math\ expression)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Should\ display\ that\ the\ attack\ is\ super\ effective\ at\ a\ location\ of\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ half\ the\ width\ of\ the\ world\ and\ half\ the\ height\ of\ the\ world\ plus\ 26\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ otherwise,\ if\ used\ against\ a\ rock\ type...\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Should\ do\ half\ of\ 55\ points\ of\ damage\ (DON'T\ DO\ THE\ MATH\!)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Should\ display\ that\ the\ attack\ is\ not\ very\ effective\ at\ a\ location\ of\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ half\ the\ width\ of\ the\ world\ and\ half\ the\ height\ of\ the\ world\ plus\ 26\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Delete\ the\ next\ otherwise\ if\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ otherwise...\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Should\ do\ 55\ points\ of\ damage\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ In\ switchCreature...\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ In\ the\ else\ condition...\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Change\ player\ two\ to\ Lapras\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment1.params=w
+comment1.target=Pidgeot(greenfoot.World)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pidgeot\r\n\ \r\n\ @param\ w\ is\ a\ reference\ to\ the\ world\ that\ Pikachu\ gets\ added\ to\r\n\ @return\ An\ object\ of\ type\ Pidgeot\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Pidgeot\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=idx
+comment3.target=void\ attack(int)
+comment3.text=\r\n\ attack\ -\ takes\ away\ health\ from\ the\ enemy\ Creature\ using\ one\ of\r\n\ two\ predefined\ attacks.\r\n\ \r\n\ @param\ idx\ is\ the\ index\ of\ the\ attack\ option\ selected\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=void\ attackAnimation()
+comment4.text=\r\n\ attackAnimation\ -\ \ Helps\ with\ the\ animation\ and\ movement\ of\ the\ \r\n\ creatures.\ It\ gives\ them\ a\ realistic\ attacking\ animation.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.params=idx
+comment5.target=void\ switchCreature(int)
+comment5.text=\r\n\ switchCreature\ -\ switches\ the\ creature\ depending\ on\ the\ players\ turn\ \r\n\ and\ the\ creature\ they\ have\ initialized.\r\n\ \r\n\ @param\ idx\ is\ the\ index\ of\ the\ attack\ option\ selected\r\n\ @return\ Nothing\ is\ returned\r\n
+comment6.params=
+comment6.target=void\ switchedIn()
+comment6.text=\r\n\ switchedIn\ -\ sets\ the\ Transparency\ of\ the\ picture\ to\ blank\ and\r\n\ sets\ the\ location\ of\ the\ creature\ to\ the\ right\ adding\ an\ animation\ look\r\n\ to\ the\ creature\ switching\ in.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+numComments=7
